@@ -37,5 +37,8 @@
     "roblox-ts": "^3.0.0",
     "@rbxts/matter": "^0.8.5",
     "typescript": "^5.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
