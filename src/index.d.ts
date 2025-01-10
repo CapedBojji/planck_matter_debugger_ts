@@ -1,6 +1,7 @@
 
 import { World } from "@rbxts/matter"
-import { Plugin, Scheduler } from "@rbxts/planck/out/types";
+import Scheduler from "@rbxts/planck/out/Scheduler";
+import { Plugin } from "@rbxts/planck/out/types";
 
 declare class PlanckMatterDebuggerPlugin implements Plugin {
     constructor(worlds: Array<World>)
